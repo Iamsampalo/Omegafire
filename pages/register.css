@@ -1,0 +1,43 @@
+.sisi{
+    height: 150px;
+    width: 100vw;
+    background-color: rgb(183, 197, 192);
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+}
+.sisi1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sisi2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+}
+ ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    gap: 30px;
+ }
+ li:hover{
+    color: orangered;
+    transition: 0.3s;
+ }
+ .bobo{
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
